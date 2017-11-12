@@ -1,0 +1,28 @@
+{
+  "name": "ourchestra",
+  "version": "1.0.0",
+  "description": "Play together anywhere",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Momojunzi/ourchestra.git"
+  },
+  "author": "Mark Holthaus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Momojunzi/ourchestra/issues"
+  },
+  "homepage": "https://github.com/Momojunzi/ourchestra#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.4.2",
+    "passport": "^0.4.0",
+    "sequelize": "^4.22.6"
+  }
+}

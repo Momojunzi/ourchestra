@@ -1,4 +1,6 @@
 
+var authController = require('../controllers/authcontroller.js');
+
 module.exports = function(app){
 
   app.get('/', function(req, res){
@@ -7,10 +9,6 @@ module.exports = function(app){
 
   app.get('/about', function(req, res){
     res.render('pages/about');
-  });
-
-  app.get('/signup', function(req, res){
-    res.render('pages/signup');
   });
 
   app.get('/signin', function(req, res){

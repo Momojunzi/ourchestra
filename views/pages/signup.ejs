@@ -4,6 +4,44 @@
     <% include ../partials/head %>
   </head>
   <body>
-    <h1>sign up</h1>
+    <div class="container">
+      <form id="signup" name="signup" method="post" action="/signup">
+        <div class="form-group row">
+          <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputName" name="name" placeholder="Enter Your Name">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputUserName" class="col-sm-2 col-form-label">User Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputUserName" name="userName" placeholder="Enter Your Username">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Enter Your Email">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputLocation" class="col-sm-2 col-form-label">Location</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputLocation" name="location" placeholder="Enter Your Location">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Enter Your Password">
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="offset-sm-2 col-sm-10">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
